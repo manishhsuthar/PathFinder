@@ -98,7 +98,7 @@ const Login = () => {
         localStorage.setItem('user', JSON.stringify(response.data.user));
       }
 
-      navigate('/input-details', {
+      navigate('/dashboard', {
         state: {
           firstName:
             response.data?.user?.first_name ||
