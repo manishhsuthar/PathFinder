@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://path-finder-five-eta.vercel.app/sitemap.xml
